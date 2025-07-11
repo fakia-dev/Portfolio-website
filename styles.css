@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #cce5ff;
+  }
+  
+  #about {
+    background-color: #e2f0cb;
+  }
+  
+  img {
+    border-radius: 50%;
+    margin-top: 15px;
+  }
+  #skills {
+    background-color: #fff3cd;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #444;
+  }
+  #projects {
+    background-color: #d1e7dd;
+  }
+  
+  .project {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  .project h3 {
+    color: #0d6efd;
+  }
+  
+  .project p {
+    font-size: 16px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #0a58ca;
+  }
+  #contact {
+    background-color: #ffe5b4;
+    padding-bottom: 60px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    color: white;
+  }
+  /* Mobile Responsive */
+@media only screen and (max-width: 768px) {
+    section {
+      padding: 20px;
+    }
+  
+    img {
+      width: 150px;
+    }
+  
+    #contact input,
+    #contact textarea {
+      width: 95%;
+    }
+  
+    .project {
+      width: 90%;
+    }
+  }
+  
